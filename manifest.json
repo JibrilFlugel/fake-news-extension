@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "News Verifier",
+  "version": "0.1",
+  "description": "An extension that lets you mark the news as real/fake",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "News Verifier"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
