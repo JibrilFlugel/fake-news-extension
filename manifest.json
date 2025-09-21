@@ -7,8 +7,5 @@
   "action": {
     "default_popup": "index.html",
     "default_title": "News Verifier"
-  },
-  "background": {
-    "service_worker": "background.js"
   }
 }
